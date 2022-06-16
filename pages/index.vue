@@ -1,9 +1,11 @@
 <template>
-  <Tutorial/>
+  <main>
+    {{ $config.app.name }}
+  </main>
 </template>
 
 <script>
 export default {
-  name: 'IndexPage'
-}
+  name: "IndexPage",
+};
 </script>
