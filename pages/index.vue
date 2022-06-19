@@ -1,7 +1,6 @@
 <template>
   <main>
     <h1 class="title" align="center">{{ $config.app.name }}</h1>
-    {{getNowTime()}}
   </main>
 </template>
 
