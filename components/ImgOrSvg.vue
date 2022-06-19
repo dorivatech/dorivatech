@@ -4,7 +4,7 @@
       v-if="content"
       class="svg"
       :class="classes"
-      :style="{ width: `${width}px`, '--color':color }"
+      :style="{ width: `${width}px`, '--color': color }"
       v-html="content"
     ></div>
     <img v-else :src="src" :alt="alt" :width="width" />
@@ -15,45 +15,45 @@ export default {
   props: {
     src: {
       type: String,
-      default: '',
+      default: "",
     },
     alt: {
       type: String,
-      default: '',
+      default: "",
     },
     classes: {
       type: String,
-      default: '',
+      default: "",
     },
     width: {
       type: String,
-      default: '',
+      default: "",
     },
     color: {
       type: String,
-      default: '',
+      default: "",
     },
   },
   data() {
     return {
       content: null,
-    }
+    };
   },
   mounted() {
-    this.getContent()
+    this.getContent();
   },
   methods: {
     getContent() {
       fetch(this.src).then((response) => {
-        if (response.headers.get('content-type').includes('svg')) {
+        if (response.headers.get("content-type").includes("svg")) {
           return response.text().then((text) => {
-            this.content = text
-          })
+            this.content = text;
+          });
         }
-      })
+      });
     },
   },
-}
+};
 </script>
 <style lang="scss">
 .img-or-svg {

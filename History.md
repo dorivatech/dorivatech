@@ -31,4 +31,8 @@ Traduzi o comentário do method anterior e olha o que significa ```获取当前�
 
 Adicionei um component chamado ```ImgOrSvg``` desenvolvido pelo [Ravelino de Castro](https://github.com/ravelinodecastro) que basicamente verifica um source passado como props e define se é uma imagem ou svg e renderiza cada de acordo ao tipo.
 
-Estou a pensar em usar o flaticon para pegar os ícones todos, daí a ideia do component anterior
+Estou a pensar em usar o flaticon para pegar os ícones todos, daí a ideia do component anterior.
+
+Estou a trabalhar sem template então nem reclamem do primeiro layout 😅😅😅
+
+Mas ok, decidi usar o [particlejs](https://particles.js.org) só que pra vue, o chamado [vue-particles](https://vue-particles.netlify.app). Que por acaso estou a ter problemas em usar e vou tentar configurar mais tarde 😂😂😂
