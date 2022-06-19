@@ -28,3 +28,7 @@ getNowTime() {
 O arquivo já foi adicionado ao ```nuxt.config.js``` e foi testado em ```pages/index.vue```.
 
 Traduzi o comentário do method anterior e olha o que significa ```获取当前时间``` => ```Tempo antes do início de 获```. Esse último caracter não consigo traduzir, but whatever.
+
+Adicionei um component chamado ```ImgOrSvg``` desenvolvido pelo [Ravelino de Castro](https://github.com/ravelinodecastro) que basicamente verifica um source passado como props e define se é uma imagem ou svg e renderiza cada de acordo ao tipo.
+
+Estou a pensar em usar o flaticon para pegar os ícones todos, daí a ideia do component anterior
