@@ -10,3 +10,19 @@ Hoje (I mean 2 days ago, I guess), eu comecei o desenvolvimento do site. Então 
 
 ### Node packages
 1. [nuxt-animejs](https://www.npmjs.com/package/nuxt-animejs): já foi instalado e está funcionando. É um pacote de animações que tem como base o [anime.js](https://animejs.com/) e foi feito, como o nome já diz, para o nuxtjs.
+
+
+## Data: 19 / 06 / 2022
+
+Hoje comecei por implementar algumas meta tags que eu considero serem de importantes para ajudar no SEO. Agora eu vou implementar o meu arquivo de métodos globais do site.
+
+Bem, eu adicionei o arquivo ```plugins/global-methods.js``` que contem um ```Vue.mixin()``` com apenas um método que o github copilot sugeriu, o comentário deste diz o seguinte ```获取当前时间``` e eu nem vou traduzir agora, vou fazer um commit antes e só depois traduzir 😂😂😂 o código sugerido foi.
+
+```bash
+// 获取当前时间
+getNowTime() {
+	return new Date().getTime()
+}
+```
+
+O arquivo já foi adicionado ao ```nuxt.config.js``` e foi testado em ```pages/index.vue```
