@@ -4,9 +4,50 @@ export default {
     title: 'DorivaTech',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'author', name: 'author', content: 'DorivaTech, Dorivaldo Valentim' },
+      { hid: 'keywords', name: 'keywords', content: 'dorivatech' },
       { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'DorivaTech',
+      },
+      {
+        hid: 'og:type',
+        property: 'og:type',
+        content: 'website',
+      },
+      {
+        hid: 'og:site_name',
+        property: 'og:site_name',
+        content: 'DorivaTech',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
+        content: 'DorivaTech',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: process.env.APP_URL
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: `${process.env.APP_URL}/favicon.ico`,
+      },
+      {
+        hid: 'og:image:secure_url',
+        property: 'og:image:secure_url',
+        content: `${process.env.APP_URL}/favicon.ico`,
+      },
+      {
+        property: 'og:locale',
+        content: 'pt_AO'
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -44,7 +85,7 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
+      lang: 'pt-AO'
     }
   },
 

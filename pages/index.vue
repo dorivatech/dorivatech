@@ -18,8 +18,8 @@ export default {
         translateY: 250,
         rotate: "1turn",
         backgroundColor: "#FFF",
-        duration: 800,
-        loop: true
+        duration: 2000,
+        loop: true,
       });
     },
   },
