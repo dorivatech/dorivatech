@@ -25,4 +25,6 @@ getNowTime() {
 }
 ```
 
-O arquivo já foi adicionado ao ```nuxt.config.js``` e foi testado em ```pages/index.vue```
+O arquivo já foi adicionado ao ```nuxt.config.js``` e foi testado em ```pages/index.vue```.
+
+Traduzi o comentário do method anterior e olha o que significa ```获取当前时间``` => ```Tempo antes do início de 获```. Esse último caracter não consigo traduzir, but whatever.
